@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.4" tiledversion="1.4.1" orientation="orthogonal" renderorder="right-down" width="20" height="15" tilewidth="32" tileheight="32" infinite="0" nextlayerid="20" nextobjectid="34">
+ <tileset firstgid="1" source="../../area01_level_tiles.tsx"/>
+ <layer id="1" name="Livello tile 1" width="20" height="15">
+  <properties>
+   <property name="Background color" type="color" value="#ff00aaff"/>
+  </properties>
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+1,1,1,1,1,1,0,0,0,0,0,0,4,5,5,5,0,0,0,0,
+2,2,1,1,1,1,0,0,0,0,0,0,24,3,3,25,0,0,0,0,
+28,6,0,1,0,1,0,0,0,0,0,0,44,8,8,45,0,0,0,0,
+6,6,0,1,0,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0,
+6,6,0,1,1,1,1,1,1,1,1,1,0,0,10,11,0,0,0,0,
+6,6,2,1,1,0,1,1,0,0,0,1,0,0,30,31,1,0,0,0,
+6,61,6,42,42,42,1,1,1,1,62,2,2,5,5,5,5,5,5,5,
+24,6,24,24,3,3,1,1,1,1,24,24,24,24,24,24,41,24,24,24,
+24,24,24,24,3,3,68,68,68,68,24,24,24,24,24,24,24,24,24,24,
+24,24,24,24,3,3,21,21,21,21,24,3,3,3,3,3,3,3,24,24
+</data>
+ </layer>
+ <objectgroup id="4" name="mainPlayer ">
+  <object id="13" name="mainPlayer" x="97" y="290" width="64" height="64">
+   <properties>
+    <property name="framewidth" type="int" value="64"/>
+    <property name="image" value="gripe_run_right"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="19" name="collision">
+  <object id="23" x="91" y="361" width="97" height="104"/>
+  <object id="24" x="9" y="201" width="37" height="253"/>
+  <object id="25" x="55" y="330" width="35" height="117"/>
+  <object id="29" x="321" y="362" width="316" height="109"/>
+  <object id="33" x="385" y="165" width="125" height="80"/>
+ </objectgroup>
+</map>
